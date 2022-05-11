@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from bandit import *
 
 def main():
-    save_doc_dir = '../../docs/ch1/'
+    save_doc_dir = '../../docs/ch01/'
     
     runs = 200
     steps = 1000

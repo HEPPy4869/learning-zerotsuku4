@@ -30,7 +30,7 @@ class Agent:
         return np.argmax(self.Qs)
 
 def main():
-    save_doc_dir = '../../docs/ch1/'
+    save_doc_dir = '../../docs/ch01/'
 
     steps = 1000
     epsilon = 0.1
