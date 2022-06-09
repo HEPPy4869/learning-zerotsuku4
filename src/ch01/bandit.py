@@ -3,8 +3,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 class Bandit:
-    def __init__(self, arms=10):
+    def __init__(self, arms=10, test=False):
         self.rates = np.random.rand(arms)
+        if test == True:
+            self.rates = [0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0]
 
     def play(self, arm):
         rate = self.rates[arm]
